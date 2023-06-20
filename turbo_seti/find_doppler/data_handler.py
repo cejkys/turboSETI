@@ -15,7 +15,7 @@ from blimpy.io import sigproc
 from blimpy.io.hdf_writer import __write_to_hdf5_heavy as write_to_h5
 from blimpy.utils import change_the_ext
 
-from .kernels import Kernels
+from kernels import Kernels
 
 logger = logging.getLogger('data_handler')
 

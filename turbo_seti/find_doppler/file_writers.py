@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import numpy as np
-from .helper_functions import chan_freq
+from helper_functions import chan_freq
 
 
 class GeneralWriter:

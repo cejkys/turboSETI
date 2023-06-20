@@ -27,12 +27,12 @@ from h5py import __version__ as H5PY_VERSION
 from h5py._errors import unsilence_errors
 from hdf5plugin import version as HDF5PLUGIN_VERSION
 from blimpy import __version__ as BLIMPY_VERSION
-from .turbo_seti_version import TURBO_SETI_VERSION
-from .kernels import Kernels, Scheduler
-from .data_handler import DATAHandle, DATAH5
-from .file_writers import FileWriter, LogWriter
-from .helper_functions import chan_freq, comp_stats
-from .merge_dats_logs import merge_dats_logs
+from turbo_seti_version import TURBO_SETI_VERSION
+from kernels import Kernels, Scheduler
+from data_handler import DATAHandle, DATAH5
+from file_writers import FileWriter, LogWriter
+from helper_functions import chan_freq, comp_stats
+from merge_dats_logs import merge_dats_logs
 
 #For debugging
 #import pdb;# pdb.set_trace()
